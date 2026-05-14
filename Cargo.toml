@@ -1,0 +1,14 @@
+[package]
+name = "usme"
+version = "0.1.0"
+edition = "2021"
+authors = ["Austin T J <your.email@example.com>"]
+description = "A lightweight symbolic math engine for differentiation and simplification."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourusername/usme"
+readme = "README.md"
+keywords = ["math", "symbolic", "calculus", "differentiation"]
+categories = ["science", "mathematics", "parser-implementations"]
+
+[dev-dependencies]
+proptest = "1.5.0"

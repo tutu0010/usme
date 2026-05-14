@@ -5,6 +5,9 @@ fn main() {
     // 1. Define a complex input string
     let input = "(2 - 4^4) * (((x) * y) ^ x)";
 
+    let x_value = 1.5;
+    let y_value = 15.75;
+
     // 2. Parse the string into an Expression AST
     let expr = parse(input).expect("Failed to parse expression");
 
@@ -20,8 +23,9 @@ fn main() {
 
     // 5. Numerical Evaluation
     let mut vars = HashMap::new();
-    vars.insert("x".to_string(), 1.5);
+    vars.insert("x".to_string(), x_value);
+    vars.insert("y".to_string(), y_value);
     if let Ok(result) = expr.eval(&vars) {
-        println!("Value at x=1.5: {}", result);
+        println!("Value at x={} and y={}: {}", x_value, y_value, result);
     }
 }

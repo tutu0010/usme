@@ -1,1 +1,8 @@
-/target
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Rust/Cargo builds
+/target/
+**/*.rs.bk

@@ -5,7 +5,6 @@ edition = "2021"
 authors = ["Austin T J <austintjsoft@gmail.com>"]
 license = "MIT OR Apache-2.0"
 description = "A lightweight symbolic math engine for differentiation and simplification."
-license = "MIT OR Apache-2.0"
 repository = "https://github.com/tutu0010/usme"
 readme = "README.md"
 keywords = ["math", "symbolic", "calculus", "differentiation"]
